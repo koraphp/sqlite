@@ -11,8 +11,7 @@ This provides a detailed overview of how to set up and use the **SQLiteDatabase*
 5. [Transaction Handling](#transaction-handling)  
 6. [Convenience Methods](#convenience-methods)  
 7. [Logging](#logging)  
-8. [Error Handling & Exceptions](#error-handling--exceptions)  
-9. [Closing Thoughts](#closing-thoughts)  
+8. [Error Handling & Exceptions](#error-handling--exceptions)
 
 
 ## Introduction
@@ -191,7 +190,6 @@ try {
 ```
 Additionally, if the SQLite file is missing or unreadable, `PDOException` is thrown with an appropriate message.  
 
-## Closing Thoughts
 The **SQLiteDatabase** class is designed to simplify common SQLite operations while providing a secure, PSR-complaint foundation for more advanced usage. By default, it protects against SQL injection through prepared statements, supports full transaction control, and works seamlessly with popular logging libraries.
 
-If you have specific needs—such as enabling PRAGMA statements or using advanced SQLite features—feel free to extend or customize this class. Happy coding!
+If you have specific needs—such as enabling PRAGMA statements or using advanced SQLite features—feel free to extend or customize this class.
